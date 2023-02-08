@@ -13,6 +13,7 @@
             if(count($row)>0)
             {
                 $valiny = true;
+                $this->session->set_userdata('idUser', $row['idUser']);
                 $this->session->set_userdata('nom', $row['nom']);
                 $this->session->set_userdata('typeUser', $row['typeUser']);
             }
@@ -30,8 +31,13 @@
 
         public function insertUser($nom,$email,$mdp)
         {
-            $sql = "INSERT INTO Users VALUES(NULL,?,?,?,1) ";
-            $this->db->query($sql, array($nom,$email,$mdp));
+            $valiny = true;
+            if(checkInscri($email)){
+                $sql = "INSERT INTO Users VALUES(NULL,?,?,?,1) ";
+                $this->db->query($sql, array($nom,$email,$mdp));
+            }else{
+                $valiny = false;
+            }
         }
 
         public function checkInscri($email){
@@ -76,12 +82,20 @@
             return $row;
         }
         
+        //insert proposition
         public function proposer($idUser1,$idObjet1,$idUser2,$idObjet2){
             $sql = "INSERT INTO proposition VALUES(NULL,?,?,?,?,NOW()) ";
             $this->db->query($sql, array($idUser1,$idObjet1,$idUser2,$idObjet2));
         }
 
-        public function transact($idProp,$typeTransac){
+        public function transact($idUser1,$idObjet1,$idUser2,$idObjet2,$typeTransac){
+            if($typeTransac == 0){
+                changeProprio($idUser1,$idObjet2);
+                changeProprio($idUser2,$idObjet1);
+            }
+
+            $idProp = getOnePropos($idUser1,$idObjet1,$idUser2,$idObjet2);
+
             $sql = "INSERT INTO transac VALUES(?,NOW(),?) ";
             $this->db->query($sql, array($idProp,$typeTransac));
         }

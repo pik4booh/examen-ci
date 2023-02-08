@@ -20,27 +20,25 @@
             return $result;
         }
 
-        public function getObjetUser($idUser)
-        {
-            $sql = "SELECT * FROM objetprop WHERE idUser = ?";
-            $query = $this->db->query($sql , $idUser);
-            $result = $query->result_array(); 
-
-            return $result;
-        }
-
-        public function getOtherObjets($idUser)
-        {
-            $sql = "SELECT * FROM objetprop WHERE idUser != ?";
-            $query = $this->db->query($sql , $idUser);
-            $result = $query->result_array(); 
-
-            return $result;
-        }
-
         public function suppr($idObj){
-            $sql = "DELETE FROM objet WHERE idObjt = ? ";
+            $sql = "DELETE FROM objet WHERE idObjet = ? ";
             $this->db->query($sql, $idObj);
+        }
+
+        public function getHistorique(){
+            $sql = "SELECT * FROM historiqueTransac";
+            $query = $this->db->query($sql);
+            $result = $query->result_array(); 
+
+            return $result;
+        }
+
+        public function getListProprio($idObj){
+            $sql = "SELECT * FROM proprio WHERE idObj = ?";
+            $query = $this->db->query($sql,$idObj);
+            $result = $query->result_array();
+
+            return $result;
         }
 
     }
