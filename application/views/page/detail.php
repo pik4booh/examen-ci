@@ -1,6 +1,4 @@
-
-<body style="width: 926.333px;margin-top: -7px;">
-    <!-- Start: 1 Row 2 Columns -->
+<!-- Start: 1 Row 2 Columns -->
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-lg-7 offset-lg-0" style="margin: -109px 0px 0px;margin-top: -6px;height: 339.52099999999996px;">
@@ -136,11 +134,3 @@
             </div>
         </div>
     </div><!-- End: 1 Row 2 Columns -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/PHP-Contact-Form-dark-1.js"></script>
-    <script src="assets/js/PHP-Contact-Form-dark.js"></script>
-</body>
-
-</html>

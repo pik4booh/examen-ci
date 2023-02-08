@@ -51,5 +51,12 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('statistique');
 		
-	}	
+	}
+	
+	
+	public function detail()
+	{
+		$this->load->view('detail');
+		
+	}
 }
