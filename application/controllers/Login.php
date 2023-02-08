@@ -13,6 +13,7 @@ class Login extends CI_Controller {
 
 	public function login()
 	{
+
 		$mail = $this->input->post("email");
 		$pass = $this->input->post("mdp");
 
@@ -25,8 +26,10 @@ class Login extends CI_Controller {
 				redirect('client/index');
 			}
 		}else{
+
 			$data['error'] = "ERREUR";
 			redirect('welcome/index',$data);
+			
 		}
 	}
 }
