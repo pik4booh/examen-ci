@@ -6,47 +6,54 @@ insert into Users values(null, 'Toky', 'toky@gmail.com', 'toky', 1);
 insert into Users values(null, 'Koloina', 'koloina@gmail.com', 'koloina', 1);
 
 insert into Categorie values(null, 'Outfit');
-insert into Categorie values(null, 'Sac');
+insert into Categorie values(null, 'Accessoir');
 insert into Categorie values(null, 'Talons');
 
-insert into Objet values(null, 'Daily outfit', 'Haut orange taille xl avec jeans blue', 1, 15000, 'Vetements/c1.png');
+insert into Objet values(null, 'Daily outfit', 'Haut orange taille XL avec jeans blue', 1, 15000, 'Outfit/c1.png');
+insert into Objet values(null, 'Daily outfit', 'Haut blanc taille XL short beige', 1, 150000, 'Outfit/c2.png');
+insert into Objet values(null, 'Daily outfit', 'Haut noir taille L jeans cuir', 1, 80000, 'Outfit/c7.png');
+insert into Objet values(null, 'Daily outfit', 'Haut bleu  taille S short jeans ', 1, 85000, 'Outfit/c8.png');
+insert into Objet values(null, 'Daily outfit', 'Haut blanc taille S jeans gris', 1, 40000, 'Outfit/c9.png');
+insert into Objet values(null, 'Daily outfit', 'Haut noir taille S jeans bleu', 1, 15000, 'Outfit/c10.png');
+insert into Objet values(null, 'Daily outfit', 'Haut noir taille XL jeans bleu', 1, 25000, 'Outfit/c11.png');
+insert into Objet values(null, 'Daily outfit', 'Haut rose taille XL jeans bleu', 1, 55000, 'Outfit/c12.png');
+insert into Objet values(null, 'Event outfit', 'Robe maxi noir taille L', 1, 120000, 'Outfit/c3.png');
+insert into Objet values(null, 'Event outfit', 'Robe vert pastelle taille L', 1, 90000, 'Outfit/c4.png');
+insert into Objet values(null, 'Event outfit', 'Robe rose manche longue  taille L', 1, 100000, 'Outfit/c5.png');
 
-insert into Objet values(null, 'Jordan Retro 1', 'Air Jordan One Red Velvet', 1, 150000, 'Vetements/v4.png');
-insert into Photos values(null, 2, 'Vetements/v4.png');
-insert into Photos values(null, 2, 'Vetements/v5.png');
-insert into Photos values(null, 2, 'Vetements/v6.png');
-insert into Objet values(null, 'Pantalon H&M', 'Jean Bleu Fashion', 1, 80000, 'Vetements/v7.png');
-insert into Photos values(null, 3, 'Vetements/v7.png');
-insert into Photos values(null, 3, 'Vetements/v8.png');
-insert into Photos values(null, 3, 'Vetements/v9.png');
 
-insert into Objet values(null, 'Fifty Shades Of Grey', 'Livre erotique passionel', 2, 40000, 'Livre/l1.png');
-insert into Photos values(null, 4, 'Livre/l1.png');
-insert into Photos values(null, 4, 'Livre/l2.png');
-insert into Photos values(null, 4, 'Livre/l3.png');
-insert into Objet values(null, 'Larousse', 'Dictionnaire Francais', 2, 15000, 'Livre/l4.png');
-insert into Photos values(null, 5, 'Livre/l4.png');
-insert into Photos values(null, 5, 'Livre/l5.png');
-insert into Photos values(null, 5, 'Livre/l6.png');
-insert into Objet values(null, 'King Arthur', 'Livre aventure dedicacee', 2, 80000, 'Livre/l6.png');
-insert into Photos values(null, 6, 'Livre/l7.png');
-insert into Photos values(null, 6, 'Livre/l8.png');
-insert into Photos values(null, 6, 'Livre/l9.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière beige', 2, 40000, 'Accessoirs/s.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main structuté noir', 2, 35000, 'Accessoirs/s1.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main effet croco noir', 2, 60000, 'Accessoirs/s2.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière matelassé cream', 2, 80000, 'Accessoirs/s3.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière texturé orange', 2, 30000, 'Accessoirs/s4.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière à chaine épaisse cream', 2, 100000, 'Accessoirs/s5.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière à détaille métallique', 2, 85000, 'Accessoirs/s6.png');
+insert into Objet values(null, 'Accesoir', 'Mini sac à main liliac', 2, 45000, 'Accessoirs/s7.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière structuré à slogan orange', 2, 50000, 'Accessoirs/s8.png');
+insert into Objet values(null, 'Accesoir', 'Petit sac à main froncé beige', 2, 42500, 'Accessoirs/s9.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main rectangle Bandoulière Beige', 2, 60000, 'Accessoirs/s10.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière noir', 2, 55000, 'Accessoirs/s11.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière vert', 2, 40000, 'Accessoirs/s12.png');
 
-insert into Objet values(null, 'Iphone 5', 'Produit Apple Original', 3, 150000, 'Informatique/i1.png');
-insert into Photos values(null, 7, 'Informatique/i1.png');
-insert into Photos values(null, 7, 'Informatique/i2.png');
-insert into Photos values(null, 7, 'Informatique/i3.png');
 
-insert into Objet values(null, 'Souris Asus Rog', 'La souris ASUS ROG avec un capteur optique haut de gamme de 6200 DPI', 3, 40000, 'Informatique/i4.png');
-insert into Photos values(null, 8, 'Informatique/i4.png');
-insert into Photos values(null, 8, 'Informatique/i5.png');
-insert into Photos values(null, 8, 'Informatique/i6.png');
+insert into Objet values(null, 'Talons', 'Mules & scandales moyens  gris', 3, 150000, 'Talons/t.png');
+insert into Objet values(null, 'Talons', 'Mules & scandales moyens talons carré noir ', 3, 150000, 'Talons/t1.png');
+insert into Objet values(null, 'Talons', 'Scandales à talons transparent ', 3, 150000, 'Talons/t2.png');
+insert into Objet values(null, 'Talons', 'escarpin noir', 3, 150000, 'Talons/t3.png');
+insert into Objet values(null, 'Talons', 'escarpin blanc', 3, 150000, 'Talons/t4.png');
+insert into Objet values(null, 'Talons', 'Escarpins & scandales carrées transparent', 3, 150000, 'Talons/t5.png');
+insert into Objet values(null, 'Talons', 'Scandales à lacet noir à lacet', 3, 150000, 'Talons/t6.png');
+insert into Objet values(null, 'Talons', 'Escarpins & scandales à bout carrées noir', 3, 150000, 'Talons/t7.png');
+insert into Objet values(null, 'Talons', 'Mules & scandales moyens  vert', 3, 150000, 'Talons/t8.png');
+insert into Objet values(null, 'Talons', ' Scandales à talons et détail transparent ', 3, 150000, 'Talons/t9.png');
+insert into Objet values(null, 'Talons', 'escarpin noir', 3, 150000, 'Talons/t10.png');
+insert into Objet values(null, 'Talons', 'escarpin beige', 3, 150000, 'Talons/t11.png');
+insert into Objet values(null, 'Talons', 'escarpin noir à lacet', 3, 150000, 'Talons/t12.png');
 
-insert into Objet values(null, 'JBL Quatum 100', 'Casque Jbl low cost', 3, 60000, 'Informatique/i7.png');
-insert into Photos values(null, 9, 'Informatique/i7.png');
-insert into Photos values(null, 9, 'Informatique/i8.png');
-insert into Photos values(null, 9, 'Informatique/i9.png');
+
+
+
 
 insert into Proprio values(2,1,'2022/11/02');
 insert into Proprio values(2,2,'2022/02/03');
