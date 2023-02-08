@@ -6,7 +6,10 @@ class Client extends CI_Controller {
 	{
         // $data['content'] = 'Client';
 		// $this->load->view('page/accueil', $data);
+
 		$data['contents'] = 'page/accueil';
+
+		
 		$this->load->view('accueil',$data);
 	}	
 }
