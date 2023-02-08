@@ -6,7 +6,7 @@ insert into Users values(null, 'Toky', 'toky@gmail.com', 'toky', 1);
 insert into Users values(null, 'Koloina', 'koloina@gmail.com', 'koloina', 1);
 
 insert into Categorie values(null, 'Outfit');
-insert into Categorie values(null, 'Accessoir');
+insert into Categorie values(null, 'Accessoires');
 insert into Categorie values(null, 'Talons');
 
 insert into Objet values(null, 'Daily outfit', 'Haut orange taille XL avec jeans blue', 1, 15000, 'Outfit/c1.png');
@@ -22,19 +22,19 @@ insert into Objet values(null, 'Event outfit', 'Robe vert pastelle taille L', 1,
 insert into Objet values(null, 'Event outfit', 'Robe rose manche longue  taille L', 1, 100000, 'Outfit/c5.png');
 
 
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière beige', 2, 40000, 'Accessoirs/s.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main structuté noir', 2, 35000, 'Accessoirs/s1.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main effet croco noir', 2, 60000, 'Accessoirs/s2.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière matelassé cream', 2, 80000, 'Accessoirs/s3.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière texturé orange', 2, 30000, 'Accessoirs/s4.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière à chaine épaisse cream', 2, 100000, 'Accessoirs/s5.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière à détaille métallique', 2, 85000, 'Accessoirs/s6.png');
-insert into Objet values(null, 'Accesoir', 'Mini sac à main liliac', 2, 45000, 'Accessoirs/s7.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière structuré à slogan orange', 2, 50000, 'Accessoirs/s8.png');
-insert into Objet values(null, 'Accesoir', 'Petit sac à main froncé beige', 2, 42500, 'Accessoirs/s9.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main rectangle Bandoulière Beige', 2, 60000, 'Accessoirs/s10.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière noir', 2, 55000, 'Accessoirs/s11.png');
-insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière vert', 2, 40000, 'Accessoirs/s12.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière beige', 2, 40000, 'Accessoires/s.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main structuté noir', 2, 35000, 'Accessoires/s1.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main effet croco noir', 2, 60000, 'Accessoires/s2.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière matelassé cream', 2, 80000, 'Accessoires/s3.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière texturé orange', 2, 30000, 'Accessoires/s4.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière à chaine épaisse cream', 2, 100000, 'Accessoires/s5.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière à détaille métallique', 2, 85000, 'Accessoires/s6.png');
+insert into Objet values(null, 'Accesoir', 'Mini sac à main liliac', 2, 45000, 'Accessoires/s7.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière structuré à slogan orange', 2, 50000, 'Accessoires/s8.png');
+insert into Objet values(null, 'Accesoir', 'Petit sac à main froncé beige', 2, 42500, 'Accessoires/s9.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main rectangle Bandoulière Beige', 2, 60000, 'Accessoires/s10.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière noir', 2, 55000, 'Accessoires/s11.png');
+insert into Objet values(null, 'Accesoir', 'Sac à main Bandoulière vert', 2, 40000, 'Accessoires/s12.png');
 
 
 insert into Objet values(null, 'Talons', 'Mules & scandales moyens  gris', 3, 150000, 'Talons/t.png');
