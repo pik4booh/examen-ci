@@ -1,5 +1,3 @@
-create database takalo;
-use takalo;
 
 create table Users (
     idUser INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -29,7 +27,7 @@ create table Photos (
     idObjet INT NOT NULL,
     chemin VARCHAR(255)
 );
-
+PP
 create table Proprio (
     idUser INT NOT NULL,
     idObj INT NOT NULL,
