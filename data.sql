@@ -6,7 +6,7 @@ insert into Users values(null, 'Toky', 'toky@gmail.com', 'toky', 1);
 insert into Users values(null, 'Koloina', 'koloina@gmail.com', 'koloina', 1);
 
 insert into Categorie values(null, 'Outfit');
-insert into Categorie values(null, 'Accessoir');
+insert into Categorie values(null, 'Accessoires');
 insert into Categorie values(null, 'Talons');
 
 insert into Objet values(null, 'Daily outfit', 'Haut orange taille XL avec jeans blue', 1, 15000, 'Outfit/c1.png');
