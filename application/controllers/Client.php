@@ -7,7 +7,7 @@ class Client extends CI_Controller {
         // $data['content'] = 'Client';
 		// $data['listeMarque'] = $this->Model->listeMarque();
 
-		$data['listOtherObj'] = $this->Objet->getOtherObjets();
+		// $data['listOtherObj'] = $this->Objet->getOtherObjets();
 		$data['contents'] = 'page/accueil';
 
 		
