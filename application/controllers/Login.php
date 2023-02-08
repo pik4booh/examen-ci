@@ -13,7 +13,6 @@ class Login extends CI_Controller {
 
 	public function login()
 	{
-
 		$mail = $this->input->post("email");
 		$pass = $this->input->post("mdp");
 

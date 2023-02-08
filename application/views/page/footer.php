@@ -8,7 +8,7 @@
                                 <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
                                 <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
                             </ul>
-                            <p class="copyright text-muted text-center">Copyright ©GROUPE 2023</p>
+                            <p class="copyright text-muted text-center">©Copyright2023 ETU2231-PRINCY | ETU2180-TOKY | ETU2118-KOLOINA</p>
                         </div>
                     </div>
                 </div>

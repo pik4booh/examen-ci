@@ -26,7 +26,7 @@
     <div class="text-nowrap">
         <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="box-shadow: 0px -4px 19px var(--bs-gray-600);height: 82px;">
             <div class="container">
-                <div><a href="#" style="font-size: 30PX;font-weight: bold;background: url(&quot;assets/img/téléchargement.png&quot;);width: 200px;height: 200px;"></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="assets/img/téléchargement.png" style="width: 74px;">
+                <div><a href="#" style="font-size: 30PX;font-weight: bold;width: 200px;height: 200px;"></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="<?php echo base_url(); ?>assets/img/téléchargement.png" style="width: 74px;">
                 <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center" id="navcol-1">
                    
                         <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">accueil</a>
@@ -39,7 +39,8 @@
                     </form>
                     <!-- <a style="height: 44px;font-size: 16px;padding-top: 7px;margin: 50px;" href="#">Statistique</a>
                     <a style="height: 44px;font-size: 16px;padding-top: 7px;" href="#">Notifications</a><a href="#"> -->
-                    <a href="<?php echo base_url('welcome/profil')?>"><i class="fa fa-user" style="font-size: 20px;padding: 53px;"></i></a>
+                        <?php echo $_SESSION['nom']; ?>
+                    <a href="<?php echo base_url('welcome/profil')?>"><i class="fa fa-user" style="font-size: 30px;padding: 53px;"></i></a>
                 </div>
             </div>
         </nav>
