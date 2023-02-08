@@ -1,18 +1,17 @@
 use takalo;
 
 insert into Users values(null, 'Admin', 'admin@gmail.com', 'admin', 0);
+
+insert into Users values(null, 'Princy', 'princy@gmail.com', 'princy', 1);
 insert into Users values(null, 'Toky', 'toky@gmail.com', 'toky', 1);
-insert into Users values(null, 'Angelo', 'angelo@gmail.com', 'angelo', 1);
-insert into Users values(null, 'Mathias', 'mathias@gmail.com', 'mathias', 1);
+insert into Users values(null, 'Koloina', 'koloina@gmail.com', 'koloina', 1);
 
-insert into Categorie values(null, 'Vetements');
-insert into Categorie values(null, 'Livre');
-insert into Categorie values(null, 'Informatique');
+insert into Categorie values(null, 'Outfit');
+insert into Categorie values(null, 'Sac');
+insert into Categorie values(null, 'Talons');
 
-insert into Objet values(null, 'Tshirt TNF', 'Tshirt blanc avec logo the north face tendance jeune', 1, 15000, 'Vetements/v1.png');
-insert into Photos values(null, 1, 'Vetements/v1.png');
-insert into Photos values(null, 1, 'Vetements/v2.png');
-insert into Photos values(null, 1, 'Vetements/v3.png');
+insert into Objet values(null, 'Daily outfit', 'Haut orange taille xl avec jeans blue', 1, 15000, 'Vetements/c1.png');
+
 insert into Objet values(null, 'Jordan Retro 1', 'Air Jordan One Red Velvet', 1, 150000, 'Vetements/v4.png');
 insert into Photos values(null, 2, 'Vetements/v4.png');
 insert into Photos values(null, 2, 'Vetements/v5.png');
