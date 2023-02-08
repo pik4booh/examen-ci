@@ -25,7 +25,7 @@ class Accueil extends CI_Controller
     public function client()
 	{
 		$data = array();
-		// $data['listeMarque'] = $this->Model->listeMarque();
+		$data['listeObj'] = $this->Objet->getObjetUser();
         $data['contents'] = 'page/client';
 		$this->load->view('mainpage',$data);
 	}

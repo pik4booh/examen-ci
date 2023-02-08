@@ -1,6 +1,7 @@
 
     <p style="height: 75px;margin: 50px;font-size: 37px;letter-spacing: 1px;font-weight: bold;">LISTE PRODUIT</p><!-- Start: Masonry gallery cards responsive -->
     <div>
+        
         <!-- Start: cards -->
         <div class="row" data-masonry="{&quot;percentPosition&quot;: true }">
             <!-- Start: card-1 -->
@@ -14,6 +15,7 @@
                     </div><!-- End: texto -->
                 </div><!-- End: card -->
             </div><!-- End: card-1 -->
+
             <!-- Start: card-2 -->
             <div class="col-sm-6 col-lg-4 mb-4">
                 <!-- Start: card -->

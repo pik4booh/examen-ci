@@ -5,8 +5,9 @@ class Client extends CI_Controller {
     public function index()
 	{
         // $data['content'] = 'Client';
-		// $this->load->view('page/accueil', $data);
+		// $data['listeMarque'] = $this->Model->listeMarque();
 
+		$data['listOtherObj'] = $this->Objet->getOtherObjets();
 		$data['contents'] = 'page/accueil';
 
 		
