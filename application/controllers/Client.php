@@ -12,5 +12,12 @@ class Client extends CI_Controller {
 		$data['contents'] = 'page/accueil';
 
 		$this->load->view('accueil',$data);
-	}	
+	}
+
+	public function profil()
+	{
+		$this->load->model('Objet');
+		$data['listObjetUser'] = $this->Objet->getObjetUser($_SESSION['idUser']);
+		$this->load->view('profil',$data);
+	}
 }

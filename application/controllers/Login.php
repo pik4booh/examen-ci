@@ -28,7 +28,6 @@ class Login extends CI_Controller {
 
 			$data['error'] = "ERREUR";
 			redirect('welcome/index',$data);
-			
 		}
 	}
 }

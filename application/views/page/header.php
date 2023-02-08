@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>GROUPE 3</title>
+    <title>TOKALO SHOP</title>
     <link rel="stylesheet" href="<?php echo base_url()?>assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?php echo base_url()?>https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
     <link rel="stylesheet" href="<?php echo base_url()?>assets/fonts/font-awesome.min.css">
@@ -40,7 +40,7 @@
                     <!-- <a style="height: 44px;font-size: 16px;padding-top: 7px;margin: 50px;" href="#">Statistique</a>
                     <a style="height: 44px;font-size: 16px;padding-top: 7px;" href="#">Notifications</a><a href="#"> -->
                         <?php echo $_SESSION['nom']; ?>
-                    <a href="<?php echo base_url('welcome/profil')?>"><i class="fa fa-user" style="font-size: 30px;padding: 53px;"></i></a>
+                    <a href="<?php echo base_url('client/profil')?>"><i class="fa fa-user" style="font-size: 30px;padding: 53px;"></i></a>
                 </div>
             </div>
         </nav>
