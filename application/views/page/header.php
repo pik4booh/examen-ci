@@ -28,12 +28,12 @@
             <div class="container">
                 <div><a href="#" style="font-size: 30PX;font-weight: bold;background: url(&quot;assets/img/téléchargement.png&quot;);width: 200px;height: 200px;"></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="assets/img/téléchargement.png" style="width: 74px;">
                 <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center" id="navcol-1">
-                    <ul class="navbar-nav me-auto">
-                        <li class="nav-item"><a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">accueil</a></li>
-                        <li class="nav-item"><a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">Notifications</a></li>
-                        <li class="nav-item"><a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">Statistique</a></li>
+                   
+                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">accueil</a>
+                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="<?php echo base_url('welcome/stat')?>">Statistique</a>
+                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">Notifications</a>
                         <!-- <li class="nav-item"></li> -->
-                    </ul><i class="fa fa-search" style="width: 36.8594px;height: 13px;"></i>
+                    <i class="fa fa-search" style="width: 36.8594px;height: 13px;"></i>
                     <form class="d-sm-block me-auto" target="_self">
                         <div class="form-group mb-3"><label class="form-label" for="search-field"></label><input class="border rounded form-control search-field" type="search" id="search-field" style="background-color: #eaeaea;width: 204px;height: 25px;margin-right: 10px;" name="search"><input class="border rounded form-control search-field" type="search" id="search-field-1" style="background-color: #eaeaea;width: 204px;height: 25px;margin-right: 10px;margin-top: 8px;" name="search"></div>
                     </form>
