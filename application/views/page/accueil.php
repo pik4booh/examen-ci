@@ -17,9 +17,13 @@
                     </div><!-- End: texto -->
                 </div><!-- End: card -->
             </div><!-- End: card-1 -->
+            </div><!-- End: card-1 -->
+            </div><!-- End: card-1 -->
 
         <?php } ?>
         </div>
         </div>
             <!-- Start: Footer with social media icons -->
+
+
             
