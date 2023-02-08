@@ -16,7 +16,7 @@
         {
             $sql = "SELECT * FROM objetprop WHERE idUser = ?";
             $query = $this->db->query($sql , $idUser);
-            $result = $query->result_array(); 
+            $result = $query->result_array();
 
             return $result;
         }

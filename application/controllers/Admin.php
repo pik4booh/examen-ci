@@ -10,6 +10,5 @@ class Admin extends CI_Controller {
 		$data['contents'] = 'page/statistique';
 		$this->load->view('statistique',$data);
 
-
 	}	
 }

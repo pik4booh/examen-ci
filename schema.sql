@@ -1,4 +1,5 @@
-
+create database takalo;
+use takalo;
 
 create table Users (
     idUser INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
