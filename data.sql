@@ -1,7 +1,6 @@
 use takalo;
 
 insert into Users values(null, 'Admin', 'admin@gmail.com', 'admin', 0);
-
 insert into Users values(null, 'Princy', 'princy@gmail.com', 'princy', 1);
 insert into Users values(null, 'Toky', 'toky@gmail.com', 'toky', 1);
 insert into Users values(null, 'Koloina', 'koloina@gmail.com', 'koloina', 1);
