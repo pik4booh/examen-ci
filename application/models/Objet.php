@@ -5,7 +5,7 @@
     {
         public function findObjet($idObj)
         {
-            $sql = "SELECT * FROM objetprop WHERE idObjet = ?";
+            $sql = "SELECT * FROM objetprop WHERE idObjet = '".$idObj."' ";
             $query = $this->db->query($sql, $idObj);
             $row = $query->row_array();
 

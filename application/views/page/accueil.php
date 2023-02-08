@@ -9,11 +9,11 @@
             <div class="col-sm-6 col-lg-4 mb-4">
                 <!-- Start: card -->
                 <div class="card">
-                    <picture type="" srcset=""><img class="card-img-top p-3" src="<?php echo base_url(); ?><?php echo $loo['cover']; ?>" alt="" style="border-radius: 24px; object-fit: cover"></picture><!-- Start: texto -->
+                    <a href="<?php echo base_url('welcome/detail'); ?>?idObjet=<?php echo $loo['idObjet']; ?>"><picture type="" srcset=""><img class="card-img-top p-3" src="<?php echo base_url(); ?><?php echo $loo['cover']; ?>" alt="" style="border-radius: 24px; object-fit: cover"></picture></a><!-- Start: texto -->
                     <div class="card-body">
                         <h4 class="card-title"><?php echo $loo['nom']; ?><br></h4>
                         <h6><?php echo $loo['userName']; ?></h6>
-                        <p class="card-text text-muted"><?php echo $loo['descri']; ?><br></p><a href="">Link</a>
+                        <p class="card-text text-muted"><?php echo $loo['descri']; ?><br></p><a href="#">Echanger</a>
                     </div><!-- End: texto -->
                 </div><!-- End: card -->
             </div><!-- End: card-1 -->

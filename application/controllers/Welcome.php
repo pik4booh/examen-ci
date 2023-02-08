@@ -56,7 +56,13 @@ class Welcome extends CI_Controller {
 	
 	public function detail()
 	{
-		$this->load->view('detail');
+		$idObj = $this->input->get('idObj');
+
+		$this->load->model('Objet');
+		$data['Objet'] = $this->Objet->findObjet($idObj);
+		$data['contents'] = 'page/detail';
+
+		$this->load->view('detail',$data);
 		
 	}
 }

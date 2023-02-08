@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="row" style="color: rgb(0,0,0);">
                                     <div class="col-md-6" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);">Categorie* </label>
-                                        <select class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);" name="categ" id="">
+                                        <select name="categ" class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);" id="">
                                           <?php foreach ($listCat as $lcat){ ?>
                                           <option value="<?php echo $lcat['idCat']; ?>"><?php echo $lcat['nomCat']; ?></option>
                                           <?php } ?>

@@ -4,9 +4,9 @@
             <div class="col-md-6 col-lg-7 offset-lg-0" style="margin: -109px 0px 0px;margin-top: -6px;height: 339.52099999999996px;">
                 <div class="carousel slide" data-bs-ride="carousel" id="carousel-1" style="margin-bottom: 319px;">
                     <div class="carousel-inner">
-                        <div class="carousel-item active"><img class="w-100 d-block" src="pexels-miguel-á-padriñán-434139.jpg" alt="Slide Image" style="height: 282.521px;margin: -1px;background: url(&quot;assets/img/p-6.jpg&quot;);"></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="pexels-todd-trapani-3790058.jpg" alt="Slide Image"></div>
-                        <div class="carousel-item"><img class="w-100 d-block" src="pexels-david-selbert-9542223.jpg" alt="Slide Image"></div>
+                        <div class="carousel-item active"><img class="w-100 d-block" src="<?php echo base_url(); ?><?php echo $Objet['cover']; ?>" alt="Slide Image" style="height: 282.521px;margin: -1px;background: url(&quot;assets/img/p-6.jpg&quot;);"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="<?php echo base_url(); ?><?php echo $Objet['cover']; ?>" alt="Slide Image"></div>
+                        <div class="carousel-item"><img class="w-100 d-block" src="<?php echo base_url(); ?><?php echo $Objet['cover']; ?>" alt="Slide Image"></div>
                     </div>
                     <div>
                         <!-- Start: Previous --><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><!-- End: Previous -->
@@ -21,8 +21,8 @@
             </div>
             <div class="col-md-6 col-lg-5" style="height: 620.083px;">
                 <div>
-                    <h2>Hotel</h2>
-                    <p style="text-align: left;font-size: 12px;">Description&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br><br></p>
+                    <h2><?php echo $Objet['nom'];?></h2>
+                    <p style="text-align: left;font-size: 12px;"><?php echo $Objet['descri'];?><br><br></p>
                     <hr style="width: 498px;">
                     <form><button class="btn btn-primary" type="submit" style="background: rgb(255,58,58);border-radius: 10px;border-style: none;border-top-style: none;">Supprimer</button><button class="btn btn-primary" type="submit" style="margin-left: 10%;width: 63%;background: rgb(0,120,157);border-radius: 10px;border-style: none;">Modifier</button></form>
                 </div><!-- Start: Bootstrap 4 - Product List --><div class="container py-5">

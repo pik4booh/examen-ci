@@ -29,13 +29,21 @@
                 <div><a href="#" style="font-size: 30PX;font-weight: bold;width: 200px;height: 200px;"></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="<?php echo base_url(); ?>assets/img/téléchargement.png" style="width: 74px;">
                 <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center" id="navcol-1">
                    
-                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">accueil</a>
+                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="<?php echo base_url('client/index');?>">accueil</a>
                         <a class="nav-link active" style="height: 44px;font-size: 16px;" href="<?php echo base_url('welcome/stat');?>">Statistique</a>
                         <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">Notifications</a>
                         <!-- <li class="nav-item"></li> -->
                     <i class="fa fa-search" style="width: 36.8594px;height: 13px;"></i>
                     <form class="d-sm-block me-auto" target="_self">
-                        <div class="form-group mb-3"><label class="form-label" for="search-field"></label><input class="border rounded form-control search-field" type="search" id="search-field" style="background-color: #eaeaea;width: 204px;height: 25px;margin-right: 10px;" name="search"><input class="border rounded form-control search-field" type="search" id="search-field-1" style="background-color: #eaeaea;width: 204px;height: 25px;margin-right: 10px;margin-top: 8px;" name="search"></div>
+                        <div class="form-group mb-3" style="justify-content: center; display: flex;  margin-top: 20px">
+                            <label class="form-label" for="search-field"></label>
+                            <input class="border rounded form-control search-field" type="search" id="search-field" style="background-color: #eaeaea;width: 204px;height: 25px;margin-right: 10px;" name="search">
+                            <select  id="search-field-1" style="border:none;background-color: #eaeaea;width: 204px;height: 25px;margin-right: 10px;" name="search">
+                                <option value="">Outfit</option>
+                                <option value="">Accessoires</option>
+                                <option value="">Talons</option>
+                            </select>
+                        </div>
                     </form>
                     <!-- <a style="height: 44px;font-size: 16px;padding-top: 7px;margin: 50px;" href="#">Statistique</a>
                     <a style="height: 44px;font-size: 16px;padding-top: 7px;" href="#">Notifications</a><a href="#"> -->
