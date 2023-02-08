@@ -67,7 +67,7 @@
         }
 
         public function search($tap,$idCat){
-            if($categ =='tout'){
+            if($idCat =='tout'){
                 $sql = "SELECT * FROM objetprop WHERE nom= ? OR descri = ? ";
             }
             else{
