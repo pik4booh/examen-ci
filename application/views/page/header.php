@@ -30,7 +30,7 @@
                 <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center" id="navcol-1">
                    
                         <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">accueil</a>
-                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="<?php echo base_url('welcome/stat')?>">Statistique</a>
+                        <a class="nav-link active" style="height: 44px;font-size: 16px;" href="<?php echo base_url('welcome/stat');?>">Statistique</a>
                         <a class="nav-link active" style="height: 44px;font-size: 16px;" href="#">Notifications</a>
                         <!-- <li class="nav-item"></li> -->
                     <i class="fa fa-search" style="width: 36.8594px;height: 13px;"></i>
