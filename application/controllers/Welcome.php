@@ -29,4 +29,21 @@ class Welcome extends CI_Controller {
 		$this->load->view('acceuil');
 		
 	}	
+
+	public function url()
+	{
+		$this->load->view('page/inscription');
+		
+	}
+	public function urlLogin()
+	{
+		$this->load->view('index');
+		
+	}	
+
+	public function profil()
+	{
+		$this->load->view('profil');
+		
+	}	
 }

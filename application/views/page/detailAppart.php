@@ -1,25 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>GROUPE 3</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Bootstrap-4---Product-List.css">
-    <link rel="stylesheet" href="assets/css/Canito-nav-Bar.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="assets/css/Masonry-gallery-cards-responsive.css">
-    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark-1.css">
-    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
 
 <body style="width: 926.333px;margin-top: -7px;">
     <!-- Start: 1 Row 2 Columns -->

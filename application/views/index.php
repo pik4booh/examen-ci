@@ -43,7 +43,7 @@
                         <!-- Start: Submit --><button class="btn btn-info mt-2" type="submit" style="background: rgb(252,0,0);border-color: rgb(255,255,255);color: rgb(255,255,255);">Log In</button><!-- End: Submit -->
                     </form><!-- End: Login form -->
                     <!-- Start: Forgot password -->
-                    <p class="mt-3 mb-0"><a class="text-info small" href="inscription.html">INSCRIPTION</a></p><!-- End: Forgot password -->
+                    <p class="mt-3 mb-0"><a class="text-info small" href="<?php echo base_url('welcome/url')?>">INSCRIPTION</a></p><!-- End: Forgot password -->
                     <div>
                         <p style="color: var(--bs-red);font-weight: bold;font-size: 20px;text-align: center;margin-top: 46px;">ERREUR</p>
                     </div>

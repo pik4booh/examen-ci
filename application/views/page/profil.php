@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>GROUPE 3</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/-Login-form-Page-BS4-.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Bootstrap-4---Product-List.css">
-    <link rel="stylesheet" href="assets/css/Canito-nav-Bar.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
-    <link rel="stylesheet" href="assets/css/Masonry-gallery-cards-responsive.css">
-    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark-1.css">
-    <link rel="stylesheet" href="assets/css/PHP-Contact-Form-dark.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="box-shadow: 0px -4px 19px var(--bs-gray-600);height: 82px;">
-        <div class="container">
-            <div><a href="#" style="font-size: 30PX;font-weight: bold;background: url(&quot;assets/img/téléchargement.png&quot;);width: 200px;height: 200px;"></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button><img src="assets/img/téléchargement.png" style="width: 74px;">
-            <div class="collapse navbar-collapse d-xl-flex justify-content-xl-center" id="navcol-1">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" style="height: 44px;font-size: 20px;" href="#">accueil</a></li>
-                    <li class="nav-item"></li>
-                </ul><i class="fa fa-search" style="width: 36.8594px;height: 13px;"></i>
-                <form class="d-sm-block me-auto" target="_self">
-                    <div class="form-group mb-3"><label class="form-label" for="search-field"></label><input class="border rounded form-control search-field" type="search" id="search-field" style="background-color: #eaeaea;" name="search"></div>
-                </form><a style="height: 44px;font-size: 20px;padding-top: 7px;margin: 50px;" href="#">Notifications</a><a style="height: 44px;font-size: 20px;padding-top: 7px;" href="#">Notifications</a><a href="#"><i class="fa fa-user" style="font-size: 20px;padding: 53px;"></i></a>
-            </div>
-        </div>
-    </nav><!-- Start: 1 Row 2 Columns -->
     <div class="container">
         <div class="row" style="margin-top: -101px;">
             <div class="col-md-6 col-lg-4" style="width: 580px;margin-top: 122px;">
@@ -196,29 +159,4 @@
                         </div><!-- End: PHP-Contact -->
                     </div><!-- End: PHP-Contact Form #dark -->
                 </div><!-- Start: Footer with social media icons -->
-                <footer id="footerpad">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6 col-lg-8 mx-auto">
-                                <ul class="list-inline text-center">
-                                    <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x fa-inverse"></i></span></a></li>
-                                    <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
-                                    <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-instagram fa-stack-1x fa-inverse"></i></span></a></li>
-                                    <li class="list-inline-item"><a href="#"><span class="fa-stack fa-lg"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x fa-inverse"></i></span></a></li>
-                                </ul>
-                                <p class="copyright text-muted text-center">Copyright ©GROUPE 2023</p>
-                            </div>
-                        </div>
-                    </div>
-                </footer><!-- End: Footer with social media icons -->
-            </div>
-        </div>
-    </div><!-- End: 1 Row 2 Columns -->
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    <script src="assets/js/PHP-Contact-Form-dark-1.js"></script>
-    <script src="assets/js/PHP-Contact-Form-dark.js"></script>
-</body>
-
-</html>
+                
