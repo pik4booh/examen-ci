@@ -9,7 +9,6 @@ class Client extends CI_Controller {
 
 		$this->load->model('Objet');
 		$data['listOtherObjet'] = $this->Objet->getOtherObjets($_SESSION['idUser']);
-
 		$data['contents'] = 'page/accueil';
 
 		$this->load->view('accueil',$data);
