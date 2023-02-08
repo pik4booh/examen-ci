@@ -7,7 +7,7 @@
             <div class="col-sm-6 col-lg-4 mb-4">
                 <!-- Start: card -->
                 <div class="card">
-                    <picture type="" srcset=""><a href="<?php echo base_url('welcome/detail')?>"><img class="card-img-top p-3" src="assets/img/p-1.jpg" alt="" style="border-radius: 24px; object-fit: cover"></a></picture><!-- Start: texto -->
+                    <picture type="" srcset=""><img class="card-img-top p-3" src="assets/img/p-1.jpg" alt="" style="border-radius: 24px; object-fit: cover"></picture><!-- Start: texto -->
                     <div class="card-body">
                         <h5 class="card-title">Titulo<br></h5>
                         <p class="card-text text-muted">Parrafo<br></p><a href="">Link</a>
