@@ -35,11 +35,11 @@
                 <!-- Start: Login container -->
                 <div class="m-auto w-lg-75 w-xl-50">
                     <!-- Start: Login form -->
-                    <form method="post" action="<?php echo base_url('welcome/login')?>">
+                    <form method="post" action="<?php echo base_url('login/login')?>">
                         <!-- Start: Email -->
-                        <div class="form-group mb-3"><label class="form-label text-secondary">Email</label><input class="form-control" type="text" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email"></div><!-- End: Email -->
+                        <div class="form-group mb-3"><label class="form-label text-secondary">Email</label><input class="form-control" type="text" name="email" required="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,15}$" inputmode="email"></div><!-- End: Email -->
                         <!-- Start: Password -->
-                        <div class="form-group mb-3"><label class="form-label text-secondary">Password</label><input class="form-control" type="password" required=""></div><!-- End: Password -->
+                        <div class="form-group mb-3"><label class="form-label text-secondary">Password</label><input class="form-control" type="password" name="mdp" required=""></div><!-- End: Password -->
                         <!-- Start: Submit --><button class="btn btn-info mt-2" type="submit" style="background: rgb(252,0,0);border-color: rgb(255,255,255);color: rgb(255,255,255);">Log In</button><!-- End: Submit -->
                     </form><!-- End: Login form -->
                     <!-- Start: Forgot password -->
