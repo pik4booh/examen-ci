@@ -1,5 +1,4 @@
-CREATE DATABASE takalo;
-USE takalo;
+
 
 create table Users (
     idUser INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
