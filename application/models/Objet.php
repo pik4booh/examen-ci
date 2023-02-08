@@ -42,7 +42,7 @@
 
         public function selectCatId($nom)
         {
-            $sql = "SELECT id FROM categorie WHERE nomCat = ? ";
+            $sql = "SELECT * FROM categorie WHERE nomCat = ? ";
 
             $query = $this->db->query($sql, $nom);
             $row = $query->row_array();

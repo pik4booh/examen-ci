@@ -51,41 +51,43 @@
                             <div class="intro">
                                 <h2 style="color: rgb(0,0,0);">AJOUT PRODUIT</h2>
                             </div><!-- End: intro -->
-                            <form id="contact-form" action="assets/php/contact.php" method="post">
+                            <form id="contact-form" action="<?php echo base_url('client/ajouter'); ?>" method="get">
                                 <div class="messages"></div>
                                 <div class="controls">
                                     <div class="row">
                                         <div class="col-md-6">
-                                            <div class="form-group mb-3"><label class="form-label" for="form_name" style="color: rgb(0,0,0);">Nom* </label><input class="form-control" type="text" id="form_name" data-error="Vorname erforderlich." name="name" required="" placeholder="Bitte Tragen Sie Ihren Vornamen ein *" style="color: rgb(0,0,0);">
+                                            <div class="form-group mb-3"><label class="form-label" for="form_name" style="color: rgb(0,0,0);">Nom* </label><input class="form-control" type="text" id="form_name" data-error="Vorname erforderlich." name="nom" required="" placeholder="Bitte Tragen Sie Ihren Vornamen ein *" style="color: rgb(0,0,0);">
                                                 <div class="help-block with-errors" style="color: rgb(0,0,0);"></div>
                                             </div>
                                         </div>
                                         <div class="col-md-6" style="color: rgb(0,0,0);">
-                                            <div class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);">Descriptions* </label><input class="form-control" type="text" id="form_lastname" data-error="Nachname erforderlich." name="lastname" required="" placeholder="Bitte Tragen Sie Ihren Nachname ein *" style="color: rgb(0,0,0);">
+                                            <div class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);">Descriptions* </label><input class="form-control" type="text" id="form_lastname" data-error="Nachname erforderlich." name="descri" required="" placeholder="Bitte Tragen Sie Ihren Nachname ein *" style="color: rgb(0,0,0);">
                                                 <div class="help-block with-errors" style="color: rgb(0,0,0);"></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row" style="color: rgb(0,0,0);">
-                                    <div class="col-md-6" style="color: rgb(0,0,0);">
-                                        <div class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_email" style="color: rgb(0,0,0);">Categorie</label><input class="form-control" type="email" id="form_email" data-error="Vorname erforderlich." name="email" required="" placeholder="Bitte tragen Sie Ihre E-Mail ein *" style="color: rgb(0,0,0);">
-                                            <div class="help-block with-errors" style="color: rgb(0,0,0);"></div>
-                                        </div>
+                                    <div class="col-md-6" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);">Categorie* </label>
+                                        <select class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_lastname" style="color: rgb(0,0,0);" name="categ" id="">
+                                          <?php foreach ($listCat as $lcat){ ?>
+                                          <option value="<?php echo $lcat['idCat']; ?>"><?php echo $lcat['nomCat']; ?></option>
+                                          <?php } ?>
+                                        </select>
                                     </div>
                                     <div class="col-md-6" style="color: rgb(0,0,0);">
-                                        <div class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_phone" style="color: rgb(0,0,0);">Valeur</label><input class="form-control" type="number" id="form_phone" data-error="Telefonnummer erforderlich" name="phone" placeholder="Bitte tragen Sie Ihre Telefonnummer ein" style="color: rgb(0,0,0);">
+                                        <div class="form-group mb-3" style="color: rgb(0,0,0);"><label class="form-label" for="form_phone" style="color: rgb(0,0,0);">Valeur</label><input class="form-control" type="number" id="form_phone" data-error="Telefonnummer erforderlich" name="valeur" placeholder="Bitte tragen Sie Ihre Telefonnummer ein" style="color: rgb(0,0,0);">
                                             <div class="help-block with-errors" style="color: rgb(0,0,0);"></div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="form-group mb-3"><label class="form-label" for="form_message" style="color: rgb(0,0,0);">Photo* </label><input class="form-control" type="text" id="form_message" data-error="Nachricht erforderlich." rows="4" name="message" required="" placeholder="Hinterlassen Sie uns eine Nachricht *">
+                                        <div class="form-group mb-3"><label class="form-label" for="form_message" style="color: rgb(0,0,0);">Photo* </label><input class="form-control" type="text" id="form_message" data-error="Nachricht erforderlich." rows="4" name="photo" required="" placeholder="Hinterlassen Sie uns eine Nachricht *">
                                             <div class="help-block with-errors"></div>
                                         </div>
                                     </div>
-                                    <div class="col-md-12"><button class="btn btn-success btn-send" value="Senden" type="submit">Senden </button></div>
+                                    <div class="col-md-12"><button class="btn btn-success btn-send" value="Senden" type="submit">Ajouter </button></div>
                                 </div>
                             </form>
                         </div><!-- End: PHP-Contact -->
